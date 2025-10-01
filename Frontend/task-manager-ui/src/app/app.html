@@ -1,0 +1,17 @@
+<header>
+  <nav>
+    <a routerLink="/tasks" routerLinkActive="active">Tasks</a> |
+    <a routerLink="/tasks/new" routerLinkActive="active">New Task</a> |
+    <a routerLink="/login" routerLinkActive="active">Login</a> |
+    <a routerLink="/register" routerLinkActive="active">Register</a>
+  </nav>
+</header>
+
+<main>
+  <!-- اینجا محتوای هر صفحه میاد -->
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <p>© 2025 Task Manager App</p>
+</footer>
